@@ -1,0 +1,46 @@
+.caja { /*Aquí trabajaremos las caracteristicas de los div de forma general*/
+    width: 300px ; /*Asignamos largo y ancho en pixeles*/
+    height: 100px;
+    background-color: gray; /*Le damos un color de fondo*/
+    margin: 50px 50px 50px 50px; /*Agregamos un margen en los 4 lados*/
+    border-style: solid; /*Indicamos que nuestro margen será solido*/
+    border-color: black; /*Indicamos el color de nuestro margen, en este caso, negro*/
+    color: white; /*Le damos un color a nuestro texto para que resalte del background*/
+}
+
+.uno { /*Trabajamos con la clase del primer elemento*/
+    border-radius: 0 0 50% 0; /*Asignamos un borde del 50% para la esquina inferior derecha -recordar que se asigna en sentido de las manecillas del reloj*/
+    text-align: center; /*Alineamos el texto al centro*/
+}
+
+.dos { 
+    border-radius: 0 0 35% 0; /*Asignamos un borde del 35% para la esquina inferior derecha*/
+    text-align: center;
+}
+
+.tres{
+    border-radius: 0 0 25% 0; /*Asignamos un borde del 25% para la esquina inferior derecha*/
+    text-align: center;
+}
+
+.cuatro{
+    border-radius: 30px 90px 30px 90px; /*Asignamos bordes a los 4 lados, intercalando la intensidad del radio entre cada lado - supizq, supder, infder, supder-*/
+    text-align: center;
+}
+
+.cinco{
+    border-radius: 25%; /*Asignamos bordes a los 4 lados*/
+    text-align: center;
+}
+
+.seis{ /*Este div es especial, por lo que la clase solo se manejó como "seis" desde el html, ya que de no hacerlo así, al estar dentro de un div de forma rectangular, nos saldrá un elipse*/
+    width: 150px; /*Damos altura y largo al igual que el div general para que se mantenga en proporcion*/
+    height: 150px;
+    border-style: solid; 
+    border-color: black;
+    margin-left: 120px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    color:white;
+}

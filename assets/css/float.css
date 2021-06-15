@@ -1,0 +1,20 @@
+.cajas { /*Elemento padre*/
+    max-width: 800px; /*Tamaño máximo que puede tomar el contenedor*/
+    height: 1000px;
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.caja{ /*Elemento hijo*/
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+    border: 5px solid red;
+    float: left; /*Se va a posicionar a la izquierda del elemento que esté antes que el*/
+}
+.clearfix{ /*Para rompler el flujo del "float:left"*/
+    float: none; /*Para que el elemento deje de flotar*/
+    clear: both;
+}

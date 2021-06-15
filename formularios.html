@@ -1,0 +1,80 @@
+<!--Ejercicio Formularios-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios</h1>
+    <p>
+    <form method="POST">
+        <!--Método POST: al momento de enviar los datos al servidor, no se mostrarán en la barra de dirección-->
+        <h3>Regístrate</h3>
+        <label for="nombre"> Nombre: </label>
+        <!--Etiquetamos el input, en este caso en el campo aparecerá "Nombre"-->
+        <input type="text" name="nombre" placeholder="Ingresa tu nombre" required />
+        <!--"Placeholder" nos ayuda a mostrar un texto de ayuda-->
+        </p>
+        <p>c
+            <label for="email">Correo Electrónico:</label>
+            <!--Campo "Correo Electrónico-->
+            <input type="email" name="email" placeholder="ejemplo@ejemplo.com" required />
+            <!--"Required" nos ayuda a que el dato a ingresar sea de caracter obligatorio-->
+        </p>
+        <p>
+            <label for="password">Contraseña</label>
+            <!--"Campo Constraseña"-->
+            <input type="password" name="password" placeholder="Ingresa tu contraseña" required />
+        </p>
+        <p>
+            <label for="cumpleanos">Cumpleaños</label>
+            <!--"Campo Cumpleaños"-->
+            <input type="date" name="cumpleanos" />
+        </p>
+        <p>
+            <label for="number">Number</label>
+            <!--"Campo números"-->
+            <input type="number" name="number" />
+        </p>
+        <p>
+            <label for="slider">Slider</label>
+            <!--"Slider"-->
+            <input type="range" name="slider" min="200" max="5000" />
+        </p>
+        <p>
+            <select name="meses" id="">
+                <!--"Calendario"-->
+                <option value="Enero">Enero</option>
+                <option value="Febrerp">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+            </select>
+        </p>
+        <p>
+            <input type="checkbox" />
+            <!--Checkbox-->
+            <label for="">Opción 1</label>
+        </p>
+        <p>
+            <input type="radio" name="color" value="rojo" />
+            <label for="color">Rojo</label>
+            <input type="radio" name="color" value="verde" />
+            <label for="color">Verde</label>
+            <input type="radio" name="color" value="azul" />
+            <label for="color">Azul</label>
+            <input type="radio" name="color" value="amarillo" />
+            <label for="color">Amarillo</label>
+        </p>
+        <p>
+            <textarea name="muchotexto" id="" cols="40" rows="20" placeholder="Ingresa aquí tus comentarios"></textarea>
+        </p>
+        <input type="submit" value="Registrar">
+        <!--Se revela la infor metodo get-->
+        <button type="submit">Registrar con button</button>
+    </form>
+</body>
+
+</html>

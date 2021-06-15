@@ -1,0 +1,38 @@
+h1 { 
+    color: purple; /*Asigna un color al texto*/
+    text-align: center; /*Alínea el texto, en este caso al centro*/
+}
+
+p{
+    text-align: center;
+    font-size: 30px; /*Aumenta el tamaño de la fuenta en 30 pixeles*/
+    font-weight: 800; /*Le da grosor a la fuente*/
+    font-style: italic; /*Aplica un estilo a la fuente, en este caso "itálica"*/
+    text-decoration: underline red; /*Agrega un subrayado de color rojo al texto*/
+    text-transform: none; /*Uppercase transforma el texto en mayúsculas, lowercase en minúsculas*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Cambia el texto a una familia de fuente, en este caso "Verdana"*/
+}
+
+div{
+    height: 300px; /*Se le asigna un valor al ancho*/
+    width: 400px; /*Se le asigna un valor al alto*/
+    margin-top: 20px; /*Se crea un margen superior de 20 pixeles*/
+    padding: 20px; /*Espacio de relleno en todos los lados del elemento*/
+}
+
+.uno {
+    color: white; 
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(../images/fondonaruto2.jpg); /*Se agrega una imagen de fondo*/
+    background-size: cover; /*Se indica que la imágen debe cubrir todo el background*/
+}
+
+.dos {
+    color: orangered;
+    font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(../images/narutogif.gif)
+}

@@ -1,0 +1,20 @@
+.caja { /*Aplicamos estilo a la clase "caja" en general*/
+    width: 400px ; /*Le damos alto y largo*/
+    height: 400px;
+}
+
+.uno { /*Aplicamos estilo a la clase "uno", perteneciente al primer div*/
+    background-color: #fafa31; /*Agregamos color al background en formato hexadecimal, aunque puede ser rgb o con el identificador del color, "black" por ejemplo*/
+    margin-bottom: 10px; /*Agregamos margen a los 4 lados*/
+    border-radius: 50%; /*Le damos un radio de borde de 50% para convertirlo en un circulo*/
+}
+
+.dos { /*Aplicamos estilo a la clase "dos", perteneciente al segundo div"*/
+    background-color: #22b822;
+    padding: 20px; /*Para alinear un poco el texto dentro de nuestro div*/
+    margin-bottom: 10px; /*Margen para el texto*/
+    border-color: black; /*Color al borde */
+    border-style: solid; /*Para darle un estilo sólido al borde*/
+    border-radius: 20px; /*Para redondear las esquinas del borde*/
+    border-top-left-radius: 20px; /*Para darle radio a sólo una esquina del borde, en este caso superior izquierda, aunque se puede trabajar con la sintaxis 0,0,0,0, donde cada valor se asinga conforme al sentido horario*/
+}

@@ -1,0 +1,39 @@
+.cajas{ /*Trabajamaremos sobre la clase "cajas"*/
+    max-width: 900px; /*Altura máxima de 900px*/
+    background-color: lightgray; /*Agregamos un background*/
+    border: 3px solid black; /*Creamos un borde sólido de color negro*/
+    height: 500px; /*Ancho de 500 px*/
+    margin: 0 auto; /*Margen automático*/
+    display: flex; /*Propiedad flexible, para ajustar al tamaño del div*/
+    justify-content: center; /*Para justificar el contenido*/
+    align-items: center; /*Alineamos al centro*/
+}
+
+.caja{
+    width: 200px; /*Agregamos alto y ancho*/
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.roja{
+    background-color: rgb(248, 35, 35);
+    align-self: baseline; /*Se ajusta de forma que su base quede alineada con los demás elementos*/
+    justify-self: baseline; /*Se ajusta de forma que su base quede alineada con los demás elementos*/
+}
+
+.verde{
+    background-color: rgb(29, 204, 29);
+    
+}
+
+.azul{
+    background-color: rgb(47, 116, 243);
+    align-self:flex-end; /*Alineamos al "final" (izquierda)*/
+}
+
+.h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Agregamos una fuente*/
+    font-size: 45px; /*Tamaño de la fuente de 45px*/
+}
